@@ -1,0 +1,56 @@
+{
+  "name": "universal-file-format-converter",
+  "version": "1.0.0",
+  "description": "A comprehensive browser-based file format converter supporting images, documents, spreadsheets, audio, video, and archives",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "npx http-server -p 8000",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "keywords": [
+    "file-converter",
+    "format-converter",
+    "image-converter",
+    "document-converter",
+    "spreadsheet-converter",
+    "audio-converter",
+    "video-converter",
+    "archive-converter",
+    "browser-based",
+    "javascript",
+    "html5",
+    "css3",
+    "canvas-api",
+    "file-api",
+    "web-audio-api"
+  ],
+  "author": "Universal File Format Converter Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/universal-file-format-converter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/universal-file-format-converter/issues"
+  },
+  "homepage": "https://github.com/yourusername/universal-file-format-converter#readme",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "files": [
+    "index.html",
+    "styles.css",
+    "converter.js",
+    "README.md",
+    "LICENSE"
+  ]
+} 
